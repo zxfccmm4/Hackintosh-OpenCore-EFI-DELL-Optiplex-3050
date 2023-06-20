@@ -5,11 +5,22 @@ EFI premade of OpenCore bootloader for Dell Optiplex 3050 is here!
 
 <img src="https://media.discordapp.net/attachments/321319496990326784/989091420201693225/Zrzut_ekranu_2022-06-22_o_10.55.57.png">
 
-## Current version - OpenCore 0.9.1 DEBUG
+## Current version - OpenCore 0.9.3 DEBUG
 Repository contains full ,,Plug-and-Play" EFI of OpenCore bootloader and
 all needed files to install and run macOS on Dell Optiplex 3050!
 
-https://github.com/acidanthera/OpenCorePkg/releases/tag/0.9.1
+https://github.com/acidanthera/OpenCorePkg/releases/tag/0.9.3
+
+## Sonoma NOTE:
+
+Apple still didn't remove any of kext for Kaby Lake's iGPUs.
+So if you wish to run Sonoma, at current state (as of Beta 1), just change SMBIOS to `iMac19,1`
+
+See `SMBIOS` section below as for working iServices you're required to do so anyways.
+Might eventually with time just change it, depending what Apple will do.
+And technically thanks to Intel, KBL -> CFL spoof seems to be a thing.
+
+Too early to tell.
 
 ### SMBIOS:
 Present in repo SMBIOS is not purchased Apple's device but for own sake, I don't advice you to use it.
