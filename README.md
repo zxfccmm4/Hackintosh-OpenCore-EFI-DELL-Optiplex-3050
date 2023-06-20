@@ -22,6 +22,9 @@ And technically thanks to Intel, KBL -> CFL spoof seems to be a thing.
 
 Too early to tell.
 
+P.S. Need an updated reference image, if someone wants to commit their success.
+This repo was a result of boredom in class, now I've graduated so yeah, this becomes guessing game hah.
+
 ### SMBIOS:
 Present in repo SMBIOS is not purchased Apple's device but for own sake, I don't advice you to use it.
 ...for own sake ;)
