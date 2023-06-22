@@ -14,7 +14,7 @@ https://github.com/acidanthera/OpenCorePkg/releases/tag/0.9.3
 ## Sonoma NOTE:
 
 Apple still didn't remove any of kext for Kaby Lake's iGPUs.
-So if you wish to run Sonoma, at current state (as of Beta 1), just change SMBIOS to `iMac19,1`
+So if you wish to run Sonoma, at current state (as of Beta 2), just change SMBIOS to `iMac19,1`
 
 See `SMBIOS` section below as for working iServices you're required to do so anyways.
 Might eventually with time just change it, depending what Apple will do.
